@@ -1,0 +1,34 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and model weights
+*.pth
+*.pt
+*.ckpt
+pretrained/
+
+# Training work directories
+work_dirs/
+
+# Data
+data/
+
+# Logs
+*.log
+*.log.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+*.tar.gz
