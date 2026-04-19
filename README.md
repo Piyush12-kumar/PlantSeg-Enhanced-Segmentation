@@ -116,6 +116,10 @@ F_out = F_SAN + α · (G ⊙ O)   (gated fusion)
 
 ## 📊 Results
 
+<p align="center">
+  <img src="assets/results_comparison.png" alt="Results Comparison" width="100%">
+</p>
+
 | Model Variant | mIoU (%) | mAcc (%) | Status | GPU Memory |
 |:---|:---:|:---:|:---:|:---:|
 | **Original SAN** (ViT-L/14) | **36.91** | **52.80** | ✅ Completed | ~13 GB |
@@ -305,6 +309,24 @@ The key insight: **if α learns to stay at 0, the model is exactly the original 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/Piyush12-kumar)
 
 *Project under the guidance of Dr. Nilkanta Sahu, IIIT Guwahati*
+
+---
+
+## 📝 Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@misc{kumar2025plantseg,
+  author       = {Kumar, Piyush},
+  title        = {Enhanced Feature Fusion for Plant Semantic Segmentation 
+                  Using Side Adapter Networks with Learnable Cross-Attention},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/Piyush12-kumar/PlantSeg-Enhanced-Segmentation}},
+  note         = {IIIT Guwahati, CS300 Project}
+}
+```
 
 ---
 
